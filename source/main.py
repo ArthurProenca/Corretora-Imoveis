@@ -1,7 +1,7 @@
-import sqlite3
+import sqlite3 #essa linha importa uma biblioteca
 
 
-conn = sqlite3.connect('corretor.db')
+conn = sqlite3.connect('corretor.db') #essa linha conecta com o banco de dados
 
 cursor = conn.cursor()
 
@@ -22,4 +22,4 @@ cursor.execute("""
                u_nome TEXT NOT NULL
                );
                """)
-conn.close()
+conn.close() # vale lembrar que essa linha fecha a conexão
