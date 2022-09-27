@@ -1,4 +1,4 @@
-import sqlite3
+import sqlite3 #aqui é feito um import :)
 
 
 conn = sqlite3.connect('corretor.db')
