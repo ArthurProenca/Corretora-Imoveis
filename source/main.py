@@ -1,4 +1,4 @@
-import sqlite3
+import sqlite3 #essa linha importa uma biblioteca :)
 
 
 conn = sqlite3.connect('corretor.db')
